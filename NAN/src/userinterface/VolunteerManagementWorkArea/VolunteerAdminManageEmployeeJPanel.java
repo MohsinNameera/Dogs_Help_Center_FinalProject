@@ -54,6 +54,7 @@ public class VolunteerAdminManageEmployeeJPanel extends javax.swing.JPanel {
         employeeNameTextField = new javax.swing.JTextField();
         jButton2 = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setMinimumSize(new java.awt.Dimension(1058, 840));
@@ -99,7 +100,7 @@ public class VolunteerAdminManageEmployeeJPanel extends javax.swing.JPanel {
         employeeJTable.setSelectionBackground(new java.awt.Color(56, 90, 174));
         jScrollPane1.setViewportView(employeeJTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, 480, 180));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 110, 480, 180));
 
         jLabel3.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(25, 56, 82));
@@ -124,7 +125,10 @@ public class VolunteerAdminManageEmployeeJPanel extends javax.swing.JPanel {
         jLabel4.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(25, 56, 82));
         jLabel4.setText("MANAGE VOLUNTEER UNIT EMPLOYEE");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 40, -1, -1));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 50, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/rescuemag.gif"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 90, -1, 230));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -152,6 +156,7 @@ public class VolunteerAdminManageEmployeeJPanel extends javax.swing.JPanel {
     private javax.swing.JTable employeeJTable;
     private javax.swing.JTextField employeeNameTextField;
     private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
