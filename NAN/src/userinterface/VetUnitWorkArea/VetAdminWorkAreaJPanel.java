@@ -78,6 +78,7 @@ public class VetAdminWorkAreaJPanel extends javax.swing.JPanel {
         acceptBtn = new javax.swing.JButton();
         rejectBtn = new javax.swing.JButton();
         completeReqBtn = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setMinimumSize(new java.awt.Dimension(1338, 840));
@@ -159,6 +160,9 @@ public class VetAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
         add(completeReqBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 350, -1, -1));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/vet2.gif"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 430, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void processReqBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_processReqBtnActionPerformed
@@ -272,6 +276,7 @@ public class VetAdminWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JButton acceptBtn;
     private javax.swing.JButton completeReqBtn;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JButton processReqBtn;
     private javax.swing.JButton rejectBtn;

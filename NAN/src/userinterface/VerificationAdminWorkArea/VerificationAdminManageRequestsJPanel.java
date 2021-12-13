@@ -61,9 +61,7 @@ public class VerificationAdminManageRequestsJPanel extends javax.swing.JPanel {
                 row[0] = wr;
                 row[1] = ((VolunteerReportRequest) wr).getSceneName();
                 row[2] = ((VolunteerReportRequest) wr).getSceneZipcode();
-               
                 row[3] = ((VolunteerReportRequest) wr).getNoOfVictims();
-               
                 row[4] = ((VolunteerReportRequest) wr).getStatus();
                 row[5] = ((VolunteerReportRequest) wr).getRequestDate();
                 row[6] = ((VolunteerReportRequest) wr).getMessage();
@@ -214,7 +212,7 @@ public class VerificationAdminManageRequestsJPanel extends javax.swing.JPanel {
         int selectedRow = sceneTable.getSelectedRow();        
         if (selectedRow < 0) {
             JOptionPane.showMessageDialog(null, "Please select a Report", "Warning", JOptionPane.WARNING_MESSAGE);
-        }else if(selectedWorkReq.getStatus().equals("Assigned Verifying Admin")){
+        }else if(selectedWorkReq.getStatus().equals("Assigned Rescue Team Verifying Admin")){
             String msg = JOptionPane.showInputDialog("Additional Message");
         
             selectedWorkReq.setStatus("Forwarded to Volunteer");
