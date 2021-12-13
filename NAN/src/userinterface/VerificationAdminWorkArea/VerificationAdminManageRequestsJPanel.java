@@ -212,7 +212,7 @@ public class VerificationAdminManageRequestsJPanel extends javax.swing.JPanel {
         int selectedRow = sceneTable.getSelectedRow();        
         if (selectedRow < 0) {
             JOptionPane.showMessageDialog(null, "Please select a Report", "Warning", JOptionPane.WARNING_MESSAGE);
-        }else if(selectedWorkReq.getStatus().equals("Assigned Rescue Team Verifying Admin")){
+        }else if(selectedWorkReq.getStatus().equals("Assigned Rescue verifying Team Admin")){
             String msg = JOptionPane.showInputDialog("Additional Message");
         
             selectedWorkReq.setStatus("Forwarded to Volunteer");
